@@ -1770,7 +1770,6 @@ packages:
 
     "Abhinav Gupta <mail@abhinavg.net> @abhinav":
         - farmhash < 0 # ghc 8.10.1 https://github.com/commercialhaskell/stackage/issues/5437
-        - pinch < 0 # BuildFailureException Process exited with ExitFailure 1: ./Setup build
         - sandman < 0 # Cabal 3
 
     "Adam C. Foltzer <acfoltzer@galois.com> @acfoltzer":
@@ -2168,6 +2167,7 @@ packages:
 
     "Philipp Hausmann <ph_git@314.ch> @phile314":
         - language-thrift
+        - pinch
         - tasty-silver
 
     "Michael Thompson <what_is_it_to_do_anything@yahoo.com> @michaelt":
